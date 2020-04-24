@@ -1,8 +1,10 @@
-import * as React from 'react';
-import Main from './components/MainComponent'
+import React from 'react';
+import Main from './components/MainComponent';
 
-export default function App() {
-  return (
-    <Main />
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <Main />
+    );
+  }
 }
